@@ -13,7 +13,7 @@ As we know, addition always done from right to left, so at first, we will revers
 a = 10011  
 b = 1011
 
-Next, we will append zero(es) to the end of the smaller string, so that length of both strings becames equal
+Next, we will append zero(es) to the end of the smaller string, so that length of both strings becomes equal
 
 a = 10011  
 b = 10110
@@ -76,7 +76,7 @@ carry = `1`
 
 So, `sum = 01100` &emsp;and&emsp; `carry = 1`
 
-So, we've got our sum string. But still it's incomplete as we have a carry of 1. 
+So, we've got our 'sum' string. But still it's incomplete as we have a carry of 1. 
 
 Appending the carry to end of "sum", we get
 
