@@ -31,6 +31,6 @@ Once the base case attained, it will start returning the values for the individu
 So, for ``n = 5`` , **8** will be returned, i.e. the number of possible ways to climb the stairs of 5 steps.  
 
 ## Space & Time complexities
-Space Complexity: &emsp;O(n)  
-Time &nbsp;Complexity: &emsp;O(n)
+Space Complexity: &emsp;O(1)  
+Time &nbsp;Complexity: &emsp;O(2^n)
 
