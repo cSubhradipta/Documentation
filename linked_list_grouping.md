@@ -2,7 +2,7 @@
 [Problem](https://github.com/dscnsec/DSC-NSEC-Algorithms/blob/master/5.%20Linked%20List/grouping/grouping.md)  
 [Source code](https://github.com/dscnsec/DSC-NSEC-Algorithms/blob/master/5.%20Linked%20List/grouping/%5BCPP%5Dgrouping_csubhradipta.cpp)  
 ## Explanation
-Here, our task is to goup the odd nodes and even nodes in a given linked list.
+Here, our task is to group the odd nodes and even nodes in a given linked list.
 
 Suppose, a linked list is given as
 ``2 -> 8 -> 3 -> 1 -> 5``
@@ -19,7 +19,7 @@ After it, initialize these pointers -
 
 ![LLgrp2](images/grp2.png)
 
-Now, we will group the odd nodes and even nodes simultaneously until the oddEnd and evenEnd reach to NULL.
+Now, we will keep on linking the odd nodes and even nodes simultaneously until the oddEnd and evenEnd reaches to NULL.
 ```cpp
 while((evenEnd != NULL) && (oddEnd != NULL) && (evenEnd->next != NULL)){
 
