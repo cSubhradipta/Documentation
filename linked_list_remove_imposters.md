@@ -21,7 +21,7 @@ While _p_ not reaches to NULL-
 - After skipping _x_ number of nodes, we will delete the _(x+1)<sup>th</sup>_ node _y_ times.
 	- We will take another node pointer ``temp`` which will hold the ``ptr`` .
 	- Set ``ptr = ptr->next;``
-	- Now, free the temp node.
+	- Now, free the temp node.  
 	
 	```cpp
 	while(y-- && ptr != NULL && temp != NULL){  
