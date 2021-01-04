@@ -22,6 +22,7 @@ While _p_ not reaches to NULL-
 	- We will take another node pointer ``temp`` which will hold the ``ptr`` .
 	- Set ``ptr = ptr->next;``
 	- Now, free the temp node.
+	
 	```cpp
 	while(y-- && ptr != NULL && temp != NULL){  
         temp = ptr;
