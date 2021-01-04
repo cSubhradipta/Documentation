@@ -36,6 +36,6 @@ So, our final linked list is -
 ![LLgrp4](images/grp4.png)
 
  ## Space & Time complexities
-Space Complexity: &emsp;O(n) 
+Space Complexity: &emsp;O(n)  
 Time &nbsp;Complexity: &emsp;O(n)
 
