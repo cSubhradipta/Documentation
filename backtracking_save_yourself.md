@@ -35,6 +35,6 @@ void subString( string str, string curr){
 
 ## Space & Time complexities
 
-Space Complexity:  O(n)
+Space Complexity:  O(n)  
 Auxiliary Space : &emsp; O(n)  
 Time Complexity:  O(2<sup>n</sup>)
