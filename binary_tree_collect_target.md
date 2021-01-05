@@ -7,7 +7,7 @@
 
 Here, our task is to check whether or not the given sum is equal to the sum of any root to leaf path of a binary tree.
 
-Suppose, a tree is given-
+Suppose, a tree is given and sum is given as **8**-
 ![btree1](images/btree1.png)
 So, we will traverse the tree from root to leaf nodes and sum with ``sum - node value``.
 
