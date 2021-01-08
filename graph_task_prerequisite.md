@@ -16,8 +16,10 @@ First we will store the indegree of i<sup>th</sup> task into an array.
 Then we will push all the elements (tasks) with indegree zero into a queue.
 
 Now, traverse the queue and decrement the indegree of the other elements whose prerequisite is the particular task and count the number of elements having zero  indegree.   
-Once indegree becomes zero, push it into the queue.  
-Pop the element
+Once indegree becomes zero, push it into the queue.
+  
+Pop the element.
+
 Perform the above step until queue becomes empty.  
 
 Check if count is equal to number of tasks or not. If so, return true, else return false.
